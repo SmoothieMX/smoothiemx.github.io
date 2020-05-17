@@ -25,4 +25,13 @@
     target: '#sideNav'
   });
 
+  $('.card').hover(
+      function () {
+        $(this).addClass("shadow");
+      },
+      function () {
+        $(this).removeClass("shadow");
+      }
+  );
+
 })(jQuery); // End of use strict
